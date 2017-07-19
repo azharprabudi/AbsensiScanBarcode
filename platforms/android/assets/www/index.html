@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <title>Esa Unggul Absensi Barcode</title>
+    <style type="text/css">
+        
+        body{
+            background-color: #ececec
+        }
+
+        .margin-top-10{
+            margin-top: 10px;
+        }
+
+        .width-full{
+            width:100%;
+        }
+
+        .btn-transparent{
+            background-color: transparent;
+            border: 0px;
+            outline: none;
+        }
+
+        .full-image{
+            width: 100%;
+        }
+
+        .margin-title{
+            margin-top:12%;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-md-12 col-xs-12">
+                <div class="row">
+                    <div id="notificationMsg">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12 margin-top-10">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-4">
+                                    <img src="img/logo.png" alt="logo esgul" class="full-image">
+                                </div>
+                                <div class="col-md-8 col-xs-8">
+                                    <h4 class="margin-title">Perancangan Sistem Mobile</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12 margin-top-10">
+                            <label>Nim</label>
+                            <input type="text" class="form-control" name="nim">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12 margin-top-10">
+                            <label>Longitude</label>
+                            <input type="text" class="form-control" name="longitude">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12 margin-top-10">
+                            <label>Latitude</label>
+                            <input type="text" class="form-control" name="latitude">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12 margin-top-10">
+                            <label>Alamat</label>
+                            <textarea readonly="readonly" class="form-control" rows="5" cols="10" name="alamat"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12 margin-top-10">
+                            <label>QRcode</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control"  name="qrcode">
+                                <span class="input-group-addon" id="basic-addon2"><button class="fa fa-camera fa-sm btn-transparent" name="camera" ></button></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12 margin-top-10 text-center">
+                            <button class="btn btn-info width-full" name="submit">Simpan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+    </body>
+</html>
